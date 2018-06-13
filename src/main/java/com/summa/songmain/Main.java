@@ -44,8 +44,8 @@ public class Main {
 
 
 		String filePath = new String(Paths.get(".").toAbsolutePath().normalize().toString());
-		//filePath = filePath.replace("\\", "/");
-		filePath = "D:/mp3";
+		filePath = filePath.replace("\\", "/");
+		
 		String[] temporary = filePath.split("/");
 		String actualFolder = new String(temporary[temporary.length-1]);
 
